@@ -1,0 +1,48 @@
+Disassembly of section .text:
+
+0000000000000000 <printf>:
+   0:   55                      push   %rbp
+   1:   53                      push   %rbx
+   2:   48 83 ec 38             sub    $0x38,%rsp
+   6:   48 8d 6c 24 30          lea    0x30(%rsp),%rbp
+   b:   48 89 4d 20             mov    %rcx,0x20(%rbp)
+   f:   48 89 55 28             mov    %rdx,0x28(%rbp)
+  13:   4c 89 45 30             mov    %r8,0x30(%rbp)
+  17:   4c 89 4d 38             mov    %r9,0x38(%rbp)
+  1b:   48 8d 45 28             lea    0x28(%rbp),%rax
+  1f:   48 89 45 f0             mov    %rax,-0x10(%rbp)
+  23:   48 8b 5d f0             mov    -0x10(%rbp),%rbx
+  27:   b9 01 00 00 00          mov    $0x1,%ecx
+  2c:   48 8b 05 00 00 00 00    mov    0x0(%rip),%rax        # 33 <printf+0x33>
+  33:   ff d0                   call   *%rax
+  35:   49 89 d8                mov    %rbx,%r8
+  38:   48 8b 55 20             mov    0x20(%rbp),%rdx
+  3c:   48 89 c1                mov    %rax,%rcx
+  3f:   e8 00 00 00 00          call   44 <printf+0x44>
+  44:   89 45 fc                mov    %eax,-0x4(%rbp)
+  47:   8b 45 fc                mov    -0x4(%rbp),%eax
+  4a:   48 83 c4 38             add    $0x38,%rsp
+  4e:   5b                      pop    %rbx
+  4f:   5d                      pop    %rbp
+  50:   c3                      ret
+
+0000000000000051 <main>:
+  51:   55                      push   %rbp
+  52:   48 89 e5                mov    %rsp,%rbp
+  55:   48 83 ec 20             sub    $0x20,%rsp
+  59:   e8 00 00 00 00          call   5e <main+0xd>
+  5e:   48 8d 05 00 00 00 00    lea    0x0(%rip),%rax        # 65 <main+0x14>
+  65:   48 89 c1                mov    %rax,%rcx
+  68:   e8 93 ff ff ff          call   0 <printf>
+  6d:   b8 00 00 00 00          mov    $0x0,%eax
+  72:   48 83 c4 20             add    $0x20,%rsp
+  76:   5d                      pop    %rbp
+  77:   c3                      ret
+  78:   90                      nop
+  79:   90                      nop
+  7a:   90                      nop
+  7b:   90                      nop
+  7c:   90                      nop
+  7d:   90                      nop
+  7e:   90                      nop
+  7f:   90                      nop
