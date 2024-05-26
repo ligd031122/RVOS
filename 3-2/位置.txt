@@ -1,0 +1,28 @@
+[  0](sec -2)(fl 0x00)(ty   0)(scl 103) (nx 1) 0x0000000000000000 hello1.c
+File
+[  2](sec  1)(fl 0x00)(ty  20)(scl   3) (nx 1) 0x0000000000000000 printf
+AUX tagndx 0 ttlsiz 0x0 lnnos 0 next 0
+[  4](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x0000000000000051 main
+[  5](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x0000000000000000 static_var_uninit.1
+[  6](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x0000000000000004 static_var.0
+[  7](sec  1)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x0000000000000000 .text
+AUX scnlen 0x7b nreloc 4 nlnno 0
+[  9](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x0000000000000000 .data
+AUX scnlen 0x8 nreloc 0 nlnno 0
+[ 11](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x0000000000000000 .bss
+AUX scnlen 0x4 nreloc 0 nlnno 0
+[ 13](sec  4)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x0000000000000000 .xdata
+AUX scnlen 0x18 nreloc 0 nlnno 0
+[ 15](sec  5)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x0000000000000000 .pdata
+AUX scnlen 0x18 nreloc 6 nlnno 0
+[ 17](sec  6)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x0000000000000000 .rdata
+AUX scnlen 0x12 nreloc 0 nlnno 0
+[ 19](sec  7)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x0000000000000000 .rdata$zzz
+AUX scnlen 0x12 nreloc 0 nlnno 0
+[ 21](sec  2)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x0000000000000000 global_init
+[ 22](sec  6)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x0000000000000000 global_const
+[ 23](sec  0)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x0000000000000000 __imp___acrt_iob_func
+[ 24](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x0000000000000000 __main
+[ 25](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x0000000000000000 __mingw_vfprintf
+
+、
